@@ -242,29 +242,35 @@ body {
     margin-left: 180px;
 }
 
-.segundaleva .ftterc {
+.ftterc .fttres{
     border: 1px solid black;
     display: flex;
-    width: 692.93px;
+  
+    width: 500.93px;
     height: 800px;
+   
+    
+}
+.ftterc{
+    border: 1px solid#000;
+    width: 500.93px;
+    
+    
 }
 
 .segundaleva {
     display: flex;
     justify-content: center;
     border: 1px solid #000;
+    padding-bottom: 0;
 }
 
 .segundaleva .imgs {
     border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    margin-right: 100px;
+    display: inline-block;
+    margin-left: 0px;
     width: 180px;
     height: 300px;
-    left: 639px;
-    top: 2285px;
 }
 
 .imgs p {
@@ -275,27 +281,31 @@ body {
 .segundaleva .imgsdois {
     display: flex;
     flex-direction: column;
-    margin-left: 560px;
-    margin-right: 100px;
     border: 1px solid black;
     width: 180px;
     height: 300px;
-    left: 639px;
 }
 
 .segundaleva h1 {
     border: 1px solid black;
-    height: 124px;
-    left: 639px;
-    top: 2039px;
+    margin-left: 20px;
     font-style: normal;
-    font-weight: 700;
+    width: 600px;
     font-size: 48px;
     line-height: 129.9%;
     color: #000000;
-    text-align: center;
+    text-align: left;
 }
-
+.p{
+    border: 1px solid black;
+    width: 48%;
+    height: 72px;
+    left: 639px;
+    top: 2184px;
+    display: flex;
+    margin-left: 20px;
+    
+}
 .segundaleva button {
     background-color: #f54748;
     margin-left: 1rem;
@@ -375,10 +385,12 @@ body {
     justify-content: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 67px;
     text-align: center;
     text-transform: capitalize;
+    width: 70%;
+    margin-inline: auto;
 }
 
 .textoterceiraparte {
@@ -439,37 +451,42 @@ body {
 .ultimo {
     border: 1px solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    
 }
 
 .ultimo .h1 {
     border: 1px solid #000;
     margin-bottom: 30%;
-    width: 643px;
+    width: 843px;
     height: 134px;
-    left: 70px;
     font-size: 30px;
+    margin-left: 110px;
 }
 
-.ultimo .p {
-    font-family: 'Sofia Pro';
+.p{
+    
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
+    display: flex;
     width: 550px;
+    height: 134px;
     flex-grow: 4px;
     border: 1px solid #000;
-    margin-top: 500px;
-    justify-content: center;
+    margin-left: -1008px;
+    margin-top: -250px;
+    
+    
+    
 }
-
-.ultimo .chef {
+.chef {
     display: flex;
     border: 1ppx solid #000;
-    margin-right: 0px;
+   
+    align-items: right;
 }
 
 .ultimo .ultimaimg {
@@ -479,4 +496,24 @@ body {
     height: 40px;
     left: 232px;
     top: 4738px;
+    display: flex;
+    margin-top: 350px;
+    
+}
+.geralimg{
+    border: 1px solid #000;
+    width: 800px;
+    display: flex;
+    margin-left: 20px;
+    gap: 9%;
+}   
+.ultimaimg {
+    width: 110px;
+    height: 30px;
+   
+    border: 2px solid black;
+    gap: 50%;
+
+
+
 }
