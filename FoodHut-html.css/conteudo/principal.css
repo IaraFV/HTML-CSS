@@ -9,19 +9,17 @@ header {
     align-items: center;
     justify-content: space-around;
     height: 100px;
+    border: #000;
 }
-
 .logo {
     margin-right: 20%;
-    border: 1px solid #000;
+    
 }
-
 nav a {
     margin-inline-end: 3rem;
     color: #000;
     text-decoration: dashed;
 }
-
 nav button {
     background-color: #f54748;
     margin-inline-start: 2rem;
@@ -31,45 +29,35 @@ nav button {
     border: none;
     color: #fff;
 }
-
 .Partedois {
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
 }
-
 .Partedois .people {
     display: flex;
-    border: 1px solid #000;
     width: 139px;
     height: 28px;
     left: 76px;
     top: 212px;
 }
-
 .Partedois h1 {
     width: 530px;
-    border: 1px solid #000;
     font-size: 54px;
 }
-
 .cor {
     color: #f54748;
 }
-
 .cordois {
     color: #FDC55E;
 }
-
 .pesquisa img {
     width: 24px;
     height: 24px;
     left: 85px;
     top: 583px;
 }
-
 .pesquisa input {
     width: 471px;
     height: 30px;
@@ -82,11 +70,13 @@ nav button {
     line-height: 24px;
     letter-spacing: -0.01em;
     border-radius: 50px;
-    background-color: #fff;
     color: #191919;
     margin-bottom: 30px;
+    background-image: url('./img/pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 4% center;
+    padding-left: 50px;
 }
-
 .Partedois button {
     background-color: #f54748;
     border-radius: 50px;
@@ -103,7 +93,6 @@ nav button {
 }
 
 .Partedois .mulher {
-    border: 1px solid #000;
     display: flex;
     align-self: flex-end;
     width: 600px;
@@ -111,39 +100,31 @@ nav button {
     left: 830px;
     top: 170px;
 }
-
 .today p {
     display: flex;
     width: 856px;
     height: 48px;
-    border: 1px solid #000;
-    text-align: center;
+    justify-content: center;
     opacity: 0.8;
-    margin-left: 310px;
+    margin-left: 500px;
     margin-bottom: 30px;
 }
-
 .today h2 {
     display: flex;
-    border: 1px solid #000;
     justify-content: center;
 }
-
 .cabecarioInicial {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0%;
     gap: 50%;
-    border: 1px solid #000;
     justify-content: space-evenly;
 }
-
 body {
-    background-color: blanchedalmond;
+    background-color: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
     font-family: var(--fonte);
 }
-
 .geral img {
     display: flex;
     align-self: center;
@@ -192,7 +173,6 @@ body {
     /*width: 856px;*/
     text-align: center;
     padding: 5px;
-    border: 1px solid #000;
     justify-content: center;
     /*margin-left: 10rem;*/
     gap: 6rem;
@@ -229,6 +209,7 @@ body {
     text-transform: capitalize;
     color: #191919;
     opacity: 0.8;
+    margin-left: 30px;
 }
 
 .primeiraleva .num {
@@ -243,34 +224,23 @@ body {
 }
 
 .ftterc .fttres{
-    border: 1px solid black;
+    
     display: flex;
-  
     width: 500.93px;
     height: 800px;
-   
-    
 }
-.ftterc{
-    border: 1px solid#000;
-    width: 500.93px;
-    
-    
-}
-
 .segundaleva {
     display: flex;
-    justify-content: center;
-    border: 1px solid #000;
     padding-bottom: 0;
 }
 
 .segundaleva .imgs {
-    border: 1px solid black;
-    display: inline-block;
-    margin-left: 0px;
+    
+    display: flex;
     width: 180px;
     height: 300px;
+    flex-direction: column ;
+    
 }
 
 .imgs p {
@@ -281,13 +251,13 @@ body {
 .segundaleva .imgsdois {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    
     width: 180px;
     height: 300px;
 }
 
 .segundaleva h1 {
-    border: 1px solid black;
+   
     margin-left: 20px;
     font-style: normal;
     width: 600px;
@@ -295,27 +265,30 @@ body {
     line-height: 129.9%;
     color: #000000;
     text-align: left;
+    margin-top: 100px;
 }
 .p{
-    border: 1px solid black;
     width: 48%;
     height: 72px;
     left: 639px;
     top: 2184px;
     display: flex;
     margin-left: 20px;
+    font-size: 10px;
+    color: #191919;
     
 }
 .segundaleva button {
     background-color: #f54748;
-    margin-left: 1rem;
-    height: 25px;
+    margin-left: 2rem;
+    height: 2180px;
+    width: 100px;
     justify-content: center;
-    border-radius: 56px;
+    border-radius: 50px;
+    margin-top: 100px;
 }
 
 .terceiraleva .parte1 {
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -323,11 +296,12 @@ body {
 }
 
 .terceiraleva .parte2 {
-    border: 1px solid black;
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 .terceiraleva button {
@@ -343,6 +317,7 @@ body {
     block-size: 45px;
     border-radius: 50px;
     border: none;
+    margin-left: 80px;
 }
 
 .terceiraleva .kebab {
@@ -354,18 +329,21 @@ body {
     line-height: 33px;
     text-align: center;
     text-transform: capitalize;
+    margin-top: 10px;
 }
 
 .terceiraleva .texto {
     width: 243px;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
+    font-weight: 300;
     text-align: center;
     text-transform: capitalize;
     color: #191919;
     opacity: 0.8;
+    margin-left: 40px;
+    margin-bottom: 0px;
+   
 }
 
 .terceiraleva .num {
@@ -376,12 +354,15 @@ body {
     line-height: 24px;
     text-align: center;
     text-transform: capitalize;
-    margin-left: 180px;
+    margin-left: 190px;
+}
+.terceiraleva img{
+    margin-left: 30px;
 }
 
 .terceirageral {
     display: flex;
-    border: 1px solid #000;
+    
     justify-content: center;
     font-style: normal;
     font-weight: 700;
@@ -395,15 +376,11 @@ body {
 
 .textoterceiraparte {
     display: flex;
-    border: 1px solid #000;
     justify-content: center;
 }
 
 .listaterceiraparte button {
     display: flex;
-    border: 1px solid #000;
-    justify-content: center;
-    margin-inline-start: 1rem;
     inline-size: 162px;
     block-size: 45px;
     color: #000;
@@ -411,15 +388,16 @@ body {
     align-items: flex-start;
     padding: 10px 20px;
     gap: 10px;
-    width: 98px;
+    width: 150px;
     height: 44px;
     background: #fff;
     border-radius: 100px;
+    
+    
 }
 
 .listaterceiraparte .unico {
     display: flex;
-    border: 1px solid #000;
     justify-content: center;
     margin-inline-start: 1rem;
     inline-size: 162px;
@@ -438,18 +416,19 @@ body {
 .listaterceiraparte {
     justify-content: space-around;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
     width: 1018px;
     height: 44px;
     top: 2901px;
-    border: 1px solid #000;
-    margin-left: 211px;
+   
+    margin-left: 411px;
     margin-right: 211px;
+    margin-bottom: 80px;
+    margin-top: 40px;
 }
 
 .ultimo {
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -458,7 +437,6 @@ body {
 }
 
 .ultimo .h1 {
-    border: 1px solid #000;
     margin-bottom: 30%;
     width: 843px;
     height: 134px;
@@ -475,17 +453,11 @@ body {
     width: 550px;
     height: 134px;
     flex-grow: 4px;
-    border: 1px solid #000;
-    margin-left: -1008px;
-    margin-top: -250px;
-    
-    
-    
+    margin-top: 50px;
+    margin-left: 2px;
 }
 .chef {
     display: flex;
-    border: 1ppx solid #000;
-   
     align-items: right;
 }
 
@@ -497,23 +469,31 @@ body {
     left: 232px;
     top: 4738px;
     display: flex;
-    margin-top: 350px;
+    margin-top: 50px;
     
 }
 .geralimg{
-    border: 1px solid #000;
     width: 800px;
     display: flex;
     margin-left: 20px;
     gap: 9%;
+    margin-top: 10px;
 }   
 .ultimaimg {
-    width: 110px;
-    height: 30px;
    
+    width: 550px;
+    height: 72px;
+    left: 70px;
+    top: 4624px;
     border: 2px solid black;
-    gap: 50%;
-
-
-
 }
+   
+
+.ajuste{
+    width: 310px;
+    height: 468px;
+    left: 75px;
+
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 703.75%);
+    border-radius: 20px;
+    }
