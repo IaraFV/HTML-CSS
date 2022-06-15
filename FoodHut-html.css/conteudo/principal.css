@@ -3,9 +3,11 @@ body {
     background-color: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
     font-family: var(--fonte);
 }
+
 :root {
     --fonte: 'Poppins', sans-serif;
 }
+
 header {
     border: 1% solid;
     display: flex;
@@ -17,11 +19,13 @@ header {
     left: 24%;
     top: 24%;
 }
+
 nav a {
     margin-inline-end: 3rem;
     color: #000;
     text-decoration: dashed;
 }
+
 nav button {
     background-color: #f54748;
     margin-inline-start: 2rem;
@@ -31,33 +35,40 @@ nav button {
     border: none;
     color: #fff;
 }
+
 .Partedois {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 2%;
     flex-wrap: wrap-reverse;
     padding: 0 5%;
+    margin-right: 10%;
+    border: 1px solid#000;
+    width: 83%;
 }
+
 .Partedois .people {
     display: flex;
-    width: 139px;
-    height: 28px;
-    left: 76px;
-    top: 212px;
+    margin-top: 2%;
 }
-.people img{
-    max-width: 100%;
+
+.people img {
+    max-width: 90%;
     height: auto!important;
 }
+
 .Partedois h1 {
-    width: 530px;
-    font-size: 54px;
+    font-size: 2rem;
+    right: 5%;
+    border: 1px solid#000;
 }
+
 .Partedois p {
     width: 500px;
     font-size: 24px;
 }
+
 .pesquisa input {
     width: 471px;
     height: 30px;
@@ -77,6 +88,7 @@ nav button {
     background-position: 4% center;
     padding-left: 50px;
 }
+
 .Partedois button {
     background-color: #f54748;
     border-radius: 50px;
@@ -91,14 +103,19 @@ nav button {
     border-radius: 50px;
     border: none;
 }
+
 .Partedois .mulher {
     display: flex;
     align-self: flex-end;
+    border: 1px solid #000;
 }
-.mulher img{
+
+.mulher img {
     max-width: 100%;
     height: auto!important;
+    margin-left: 5%;
 }
+
 .today h2 {
     justify-content: center;
     font-family: 'Sofia Pro';
@@ -110,6 +127,7 @@ nav button {
     display: flex;
     justify-content: center;
 }
+
 .today p {
     display: flex;
     justify-content: center;
@@ -128,6 +146,7 @@ nav button {
     margin-left: 500px;
     margin-bottom: 30px;
 }
+
 .primeiraleva {
     display: flex;
     color: #000;
@@ -137,6 +156,7 @@ nav button {
     justify-content: center;
     gap: 6rem;
 }
+
 .primeiraleva .num {
     display: flex;
     font-style: normal;
@@ -147,6 +167,7 @@ nav button {
     text-transform: capitalize;
     margin-left: 180px;
 }
+
 .primeiraleva .kebab {
     left: 194px;
     color: #f54748;
@@ -157,6 +178,7 @@ nav button {
     text-align: center;
     text-transform: capitalize;
 }
+
 .primeiraleva .texto {
     width: 243px;
     font-size: 16px;
@@ -169,6 +191,7 @@ nav button {
     opacity: 0.8;
     margin-left: 30px;
 }
+
 .primeiraleva button {
     background-color: #f54748;
     justify-content: center;
@@ -178,6 +201,7 @@ nav button {
     left: 1149px;
     top: 1608px;
 }
+
 .segundaleva h1 {
     margin-left: 20px;
     font-style: normal;
@@ -188,6 +212,7 @@ nav button {
     text-align: left;
     margin-top: 100px;
 }
+
 .p {
     width: 48%;
     height: 72px;
@@ -198,6 +223,7 @@ nav button {
     font-size: 10px;
     color: #191919;
 }
+
 .geral img {
     display: flex;
     align-self: center;
@@ -207,10 +233,12 @@ nav button {
     height: 20px;
     border-radius: 100px;
 }
+
 .segundaleva {
     display: flex;
     padding-bottom: 0;
 }
+
 .segundaleva .imgs {
     display: flex;
     width: 180px;
@@ -224,6 +252,7 @@ nav button {
     width: 180px;
     height: 300px;
 }
+
 .segundaleva button {
     background-color: #f54748;
     margin-left: 2rem;
@@ -233,6 +262,7 @@ nav button {
     border-radius: 50px;
     margin-top: 100px;
 }
+
 .geralimg {
     width: 800px;
     display: flex;
@@ -240,6 +270,7 @@ nav button {
     gap: 9%;
     margin-top: 10%;
 }
+
 .terceirageral {
     display: flex;
     justify-content: center;
@@ -252,16 +283,20 @@ nav button {
     width: 70%;
     margin-inline: auto;
 }
+
 .textoterceiraparte {
     display: flex;
     justify-content: center;
 }
+
 .cor {
     color: #f54748;
 }
+
 .cordois {
     color: #FDC55E;
 }
+
 .listaterceiraparte {
     justify-content: space-around;
     display: flex;
@@ -275,6 +310,7 @@ nav button {
     margin-bottom: 80px;
     margin-top: 40px;
 }
+
 .listaterceiraparte button {
     display: flex;
     inline-size: 162px;
@@ -289,6 +325,7 @@ nav button {
     background: #fff;
     border-radius: 100px;
 }
+
 .listaterceiraparte .unico {
     display: flex;
     justify-content: center;
@@ -305,15 +342,18 @@ nav button {
     background: #F54748;
     border-radius: 100px;
 }
+
 .terceiraleva img {
     margin-left: 30px;
 }
+
 .terceiraleva .parte1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
 }
+
 .terceiraleva .num {
     display: flex;
     font-style: normal;
@@ -324,6 +364,7 @@ nav button {
     text-transform: capitalize;
     margin-left: 190px;
 }
+
 .terceiraleva .kebab {
     left: 194px;
     color: #f54748;
@@ -335,6 +376,7 @@ nav button {
     text-transform: capitalize;
     margin-top: 10px;
 }
+
 .terceiraleva .texto {
     width: 243px;
     font-size: 16px;
@@ -347,6 +389,7 @@ nav button {
     margin-left: 40px;
     margin-bottom: 0px;
 }
+
 .terceiraleva button {
     background-color: #f54748;
     border-radius: 50px;
@@ -362,6 +405,7 @@ nav button {
     border: none;
     margin-left: 80px;
 }
+
 .terceiraleva .parte2 {
     display: flex;
     justify-content: space-around;
@@ -369,12 +413,14 @@ nav button {
     margin-top: 100px;
     margin-bottom: 80px;
 }
+
 .ultimo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
+
 .ultimo .h1 {
     margin-bottom: 30%;
     width: 843px;
@@ -382,6 +428,7 @@ nav button {
     font-size: 30px;
     margin-left: 110px;
 }
+
 .p {
     font-style: normal;
     font-weight: 400;
@@ -393,6 +440,7 @@ nav button {
     margin-top: 50px;
     margin-left: 2px;
 }
+
 .ultimo .ultimaimg {
     border: 1px solid #A6A6A6;
     border-radius: 5px;
@@ -403,10 +451,12 @@ nav button {
     display: flex;
     margin-top: 50px;
 }
+
 .chef {
     display: flex;
     align-items: right;
 }
+
 .ultimaimg {
     width: 550px;
     height: 72px;
@@ -414,6 +464,7 @@ nav button {
     top: 4624px;
     border: 2px solid black;
 }
+
 .ajuste {
     width: 310px;
     height: 468px;
