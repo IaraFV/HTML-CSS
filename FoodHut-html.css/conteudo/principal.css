@@ -11,8 +11,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100%;
+    height: 62%;
     border: #000;
+    width: 97%;
+    left: 24%;
+    top: 24%;
 }
 nav a {
     margin-inline-end: 3rem;
@@ -33,6 +36,8 @@ nav button {
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
+    flex-wrap: wrap-reverse;
+    padding: 0 5%;
 }
 .Partedois .people {
     display: flex;
@@ -40,6 +45,10 @@ nav button {
     height: 28px;
     left: 76px;
     top: 212px;
+}
+.people img{
+    max-width: 100%;
+    height: auto!important;
 }
 .Partedois h1 {
     width: 530px;
@@ -85,10 +94,10 @@ nav button {
 .Partedois .mulher {
     display: flex;
     align-self: flex-end;
-    width: 600px;
-    height: 700px;
-    left: 830px;
-    top: 170px;
+}
+.mulher img{
+    max-width: 100%;
+    height: auto!important;
 }
 .today h2 {
     justify-content: center;
