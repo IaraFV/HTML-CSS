@@ -45,7 +45,7 @@ nav button {
     flex-wrap: wrap-reverse;
     padding: 0 5%;
     margin-right: 10%;
-    border: 1px solid#000;
+  
     width: 83%;
 }
 
@@ -63,7 +63,7 @@ nav button {
     display: inline-block;
     font-size: 3rem;
     right: 5%;
-    border: 1px solid#000;
+    
     text-align: start;
     width: 70%;
     max-width: 100%;
@@ -73,7 +73,7 @@ nav button {
 .Partedois p {
     width: 70%;
     font-size: 1rem;
-    border: 1px solid#000;
+   
     max-width: 100%;
 }
 
@@ -95,26 +95,25 @@ nav button {
     background-repeat: no-repeat;
     background-position: 4% center;
     padding-left: 50px;
-    border: 1px solid #000;
 }
 
 .Partedois button {
     background-color: #f54748;
-    border-radius: 50%;
-    height: 45%;
-    left: 70%;
-    top: 656%;
+    width: 372px;
+    height: 45px;
+    left: 24px;
+    top: 1076px;
     color: #fff;
     margin-inline-start: 2rem;
-    inline-size: 30%;
-    border-radius: 50%;
+    inline-size: 162px;
+    block-size: 45px;
+    border-radius: 50px;
     border: none;
 }
 
 .Partedois .mulher {
     display: flex;
     align-self: flex-end;
-    border: 1px solid #000;
 }
 
 .mulher img {
@@ -124,46 +123,51 @@ nav button {
 
 @media (max-width: 600px) {
     .mulher img,
-    .Partedois p,
-    .pesquisa input,
-    .Partedois button {
-        background: blue;
+    .ftterc{
         width: 100%;
+    }
+    .Partedois p,
+    .pesquisa input
+     {
+        width: 100%;
+        right: 100%;
     }
     .header {
         display: none;
-        border: 1px solid #000;
     }
+    .Partedois button{
+        width: 31%;
+    }
+    .today h2{
+        width: 100%;
+        height: auto;
+      }
+      .primeiraleva{
+        
+      }
 }
-
-.today h2 {
-    justify-content: center;
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-size: 48px;
-    line-height: 67px;
+.today  h2{
     text-transform: capitalize;
-    color: #191919;
+    display: inline-block;
+    font-size: 3rem;
+    justify-content:center;
     display: flex;
-    justify-content: center;
+    height: auto;
 }
 
 .today p {
     display: flex;
     justify-content: center;
-    height: 48px;
-    width: 856px;
-    left: 324px;
-    top: 1023px;
+    height: 48%;
+    width: 100%;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 40rem;
+    font-size: 1rem;
     line-height: 24px;
     text-align: center;
     text-transform: capitalize;
     color: #191919;
     opacity: 0.8;
-    margin-left: 500px;
     margin-bottom: 30px;
 }
 
@@ -172,7 +176,7 @@ nav button {
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 5px;
+    padding: 5%;
     justify-content: center;
     gap: 6rem;
 }
@@ -223,14 +227,15 @@ nav button {
 }
 
 .segundaleva h1 {
-    margin-left: 20px;
+    margin-left: 2%;
     font-style: normal;
-    width: 600px;
-    font-size: 48px;
+    width: 100%;
+    font-size: 4rem;
     line-height: 129.9%;
     color: #000000;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 20%;
+    border: 1px solid #000;
 }
 
 .p {
@@ -290,7 +295,12 @@ nav button {
     gap: 9%;
     margin-top: 10%;
 }
-
+.ftterc{
+    height: auto!important;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+}
 .terceirageral {
     display: flex;
     justify-content: center;
