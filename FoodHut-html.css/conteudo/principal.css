@@ -2,6 +2,7 @@
         body {
             background-color: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
             font-family: var(--fonte);
+            overflow-x: hidden;
         }
         
          :root {
@@ -147,7 +148,7 @@
                 justify-content: space-around;
             }
             .mobile-menu {
-                display: block;
+                display: inline;
             }
             .pesquisa input {
                 width: 100%;
@@ -160,19 +161,53 @@
                 width: 31%;
             }
             .today h2 {
+                border: 1px solid#000;
+                height: auto;
+                min-width: 74.2%;
+            }
+            .segundaleva h1 {
+                min-width: 30%;
+                font-size: 3rem;
+            }
+            .primeiraleva {
+                flex-wrap: wrap;
+            }
+            .segundaleva,
+            .geralimg {
+                flex-wrap: wrap;
+            }
+            .geralimg button {
+                margin-top: 50%;
+            }
+            .segundaleva .p {
                 width: 100%;
+                display: none;
+                margin-bottom: 10%;
                 height: auto;
             }
-            .primeiraleva {}
+            .ftterc {
+                width: 100%;
+            }
+            .terceiraleva .parte1,
+            .terceiraleva .parte2 {
+                flex-wrap: wrap;
+                display: none;
+            }
+            .footer,
+            .sobre {
+                flex-wrap: wrap;
+            }
+            .listaterceiraparte li:nth-child(n+4) {
+                display: none;
+            }
         }
         
         .today h2 {
             text-transform: capitalize;
-            display: inline-block;
             font-size: 3rem;
-            justify-content: center;
-            display: flex;
-            height: auto;
+            border: 1px solid#000;
+            width: 40%;
+            margin-left: 30%;
         }
         
         .today p {
@@ -303,7 +338,7 @@
             height: 10%;
             border-radius: 50px;
             margin-top: 20%;
-            margin-left: 2%;
+            margin-right: 8%;
             border: 1px solid #000;
         }
         
@@ -353,13 +388,10 @@
             display: flex;
             align-items: center;
             gap: 30px;
-            width: 1018px;
             height: 44px;
-            top: 2901px;
-            margin-left: 411px;
-            margin-right: 211px;
-            margin-bottom: 80px;
-            margin-top: 40px;
+            margin-left: 20%;
+            margin-bottom: 8%;
+            margin-top: 4%;
         }
         
         .listaterceiraparte button {
